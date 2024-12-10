@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -34,8 +37,5 @@
     "vite": "^6.0.1",
     "vite-plugin-vue-devtools": "^7.6.5",
     "vitest": "^2.1.5"
-  },
-  "engines": {
-    "node": "20.x"
   }
 }
