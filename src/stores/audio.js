@@ -10,7 +10,7 @@ export const useAudioStore = defineStore('AudioStore', {
     playAudio() {
       if (this.audioStat === false) {
         this.audioStat = true
-        this.audio = new Audio(`public/audio/Can't Take My Eyes off You.mp3`)
+        this.audio = new Audio(`public/audio/auh.mp3`)
         this.audio.play()
       } else {
         this.audio.currentTime = 0
