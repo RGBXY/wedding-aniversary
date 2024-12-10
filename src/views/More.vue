@@ -262,7 +262,7 @@
           <img class="mb-10" src="../../public/images/image_12.jpg" alt="" />
 
           <p class="text-sm font-semibold font-average text-primary-color text-center">
-            Dua puluh tahun bukanlah waktu yang singkat, tetapi setiap detiknya bersama kamu terasa
+            Dua puluh tahun bukanlah waktu yang singkat, tetapi setiap detiknya bersama mu terasa
             seperti momen yang abadi. Kita telah bersama melewati banyak fase hidup—terhadap
             tantangan, impian, kebahagiaan, dan semuanya dengan cinta yang semakin mendalam. Aku
             berterima kasih kepada Tuhan setiap hari karena mempertemukan kita. Cinta kita adalah

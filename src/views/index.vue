@@ -46,7 +46,10 @@
           <h1 class="text-3xl">DENNY & SRIWIE</h1>
 
           <RouterLink to="/more" class="text-sm inline-block">
-            <p class="bg-primary-color text-white h-10 px-5 mt-8 flex items-center justify-center">
+            <p
+              @click="audioStore.playAudio()"
+              class="bg-primary-color text-white h-10 px-5 mt-8 flex items-center justify-center"
+            >
               See More
             </p>
           </RouterLink>
@@ -57,5 +60,9 @@
 </template>
 
 <script setup>
+import { useAudioStore } from '@/stores/audio'
+import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
+
+const audioStore = useAudioStore()
 </script>
